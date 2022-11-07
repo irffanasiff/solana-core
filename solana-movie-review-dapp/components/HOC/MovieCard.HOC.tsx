@@ -96,6 +96,8 @@ const MovieCardHOC = ({ movie }: props) => {
         });
     } catch (error) {}
   }, [isOpen, movie]);
+
+
   return (
     <Center>
       <Modal

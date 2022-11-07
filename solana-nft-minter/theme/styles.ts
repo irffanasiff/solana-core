@@ -2,9 +2,9 @@ import { mode, StyleFunctionProps } from '@chakra-ui/theme-tools';
 
 export const styles = {
   global: (props: StyleFunctionProps) => ({
-    body: { 
-      bg:  'white' ,
-      color: 'black' 
+    body: {
+      bg: 'white',
+      color: 'black',
     },
     fonts: {
       heading: 'Space Mono',
@@ -22,17 +22,14 @@ export const styles = {
       fontWeight: '600',
       height: '2.5rem',
       bg: 'white',
-      border: '2px solid black',
       borderRadius: '0px',
       fontFamily: 'Sora',
-      color: 'black', 
+      color: 'black',
       _hover: {
         bg: mode('black', 'white')(props),
-        color: mode('white', 'black')(props),
       },
       _active: {
         bg: mode('black', 'white')(props),
-        color: mode('white', 'black')(props),
       },
     },
     '.wallet-adapter-button wallet-adapter-button-trigger ': {
